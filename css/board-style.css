@@ -1,0 +1,88 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    //border: solid black;
+
+}
+.board{
+    display: table;
+    height: 440px;
+    width: 440px;
+    position: relative;
+    top: 120px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border: solid black 10px;
+
+}
+.opponent{
+    background-color: transparent;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    display: block;
+    //border: solid black;
+}
+.me{
+    background-color: transparent;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    right: 0;
+    display: block;
+    //border: solid black;
+}
+/*.me,.opponent,.board{*/
+    /*top:100px;;*/
+/*}*/
+.white-sqr{
+    display: table-cell;
+    background-color: aliceblue;
+}
+.black-sqr{
+    display: table-cell;
+    background-color: aqua;
+}
+.white-sqr,.black-sqr{
+    width: 55px;
+    height: 55px;
+    border: 1px solid black;
+}
+
+.piece{
+    width: 39px;
+    height: 45px;
+    padding-left: 5px;
+    padding-top: 5px;
+
+    /*cursor: hand;*/
+    /*cursor: grab;*/
+    /*cursor: -moz-grab;*/
+    /*cursor: -webkit-grab;*/
+}
+.rank{
+    display: table-row;
+}
+/*.grab{*/
+    /*cursor: hand;*/
+    /*cursor: grab;*/
+    /*cursor: -moz-grab;*/
+    /*cursor: -webkit-grab;*/
+/*}*/
+/*.grabbing {*/
+    /*cursor: grabbing;*/
+    /*cursor: -moz-grabbing;*/
+    /*cursor: -webkit-grabbing;*/
+/*}*/
+
+
+
+
